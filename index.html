@@ -30,29 +30,54 @@ font-family: 'Goldman', cursive;
     position: relative;
     }
 
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}   
+    
+.centered {
+  position: 
+  absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} 
+    
 </style>
 </head>
 <body>
-<p id="titre" style="margin-top:7%">
-Street Workout 
-<p>
-<img src="images/MENU1.jpg" width="70%" style="margin-bottom: 5px">
-  <p id="titre" style="font-size: 20% margin: -20px">Catégories</p>
-    <p class="cat_text">Static</p>
-    <p class="cat_text">Handbalancing</p>
-    <p class="cat_text">Dynamic</p>
-    <p class="cat_text">Freestyle</p>
-<img src="/images/static.png" class="cat"style="margin-bottom:10%; padding: 3%; width: 12%; display: inline-block; border-radius: 20%; margin-right: 5%; background-color: white;">
-<img src="/images/handbalancing.png" class="cat" style="margin-bottom:10%; padding: 3%; width: 12%; display: inline-block; border-radius: 20%; margin-right: 5%; background-color: white;">
-<img src="/images/strength_dynamic.png" class="cat" style="margin-bottom:10%; padding: 3%; width: 12%; display: inline-block; border-radius: 20%; margin-right: 5%; background-color: white;">
-<img src="/images/freestyle.png" class="cat" style="margin-bottom:10%; padding: 3%; width: 12%; display: inline-block; border-radius: 20%; background-color: white;">
-<hr>
+    
+    <p id="titre" style="margin-top:7%">Street Workout</p>
+    <img src="images/MENU1.jpg" width="70%" style="margin-bottom: 5px">
+    <p id="titre" style="font-size: 20% margin: -20px">Catégories</p>
+    
+    <div class="container">
+        <img src="/images/static.png" class="cat"style="margin-bottom:10%; padding: 3%; width: 12%; display: inline-block; border-radius: 20%; margin-right: 5%; background-color: white;">
+        <div class="centered">Static</div>
+    </div>
+    
+    <div class="container">
+        <img src="/images/handbalancing.png" class="cat" style="margin-bottom:10%; padding: 3%; width: 12%; display: inline-block; border-radius: 20%; margin-right: 5%; background-color: white;">
+        <div class="centered">Handbalancing</div>
+    </div>
+    
+    <div class="container">
+        <img src="/images/strength_dynamic.png" class="cat" style="margin-bottom:10%; padding: 3%; width: 12%; display: inline-block; border-radius: 20%; margin-right: 5%; background-color: white;">
+        <div class="centered">Dynamic</div>
+    </div>
+    
+    <div class="container">
+        <img src="/images/freestyle.png" class="cat" style="margin-bottom:10%; padding: 3%; width: 12%; display: inline-block; border-radius: 20%; background-color: white;">
+        <div class="centered">Freestyle</div>
+    </div>
+    
+    <hr>
+    
     <p style="font-size: 90%; color: #FF7F00">Qui sommes-nous ?</p>
     <p style="font-size: 20%; text-align: left; font-family: 'Poppins', sans-serif;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet nisl a massa fermentum venenatis non id orci.
         Donec viverra libero venenatis tempus vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam congue, purus sed blandit bibendum, nisl felis iaculis odio, 
-        sed lobortis nisl nisi eu erat. Nam dictum, orci sit amet bibendum tempor, turpis diam porta ex, eu egestas odio eros vel nulla. Integer in odio libero. Vivamus porttitor, 
-        ante quis porta accumsan, ligula tellus egestas diam, facilisis fermentum felis justo vitae tortor. Nam ac neque ac est sagittis efficitur. Aenean pretium est velit. Proin dui nibh, 
-        vulputate in volutpat convallis, tincidunt a turpis. Nam non dui et massa facilisis euismod vehicula at leo. Fusce euismod magna in elit tincidunt, a tempor nulla rhoncus.
+        sed lobortis nisl nisi eu erat.
     </p>
 </body>
 </html>
