@@ -30,18 +30,16 @@ font-family: 'Goldman', cursive;
     position: relative;
     }
 
-.container {
-  position: relative;
-  text-align: center;
-  color: white;
-}   
+.image { 
+   position: relative; 
+}
     
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-} 
+.image p { 
+   position: absolute; 
+   top: -15%; 
+   left: 0%; 
+   width: 100%; 
+}
     
 </style>
 </head>
@@ -50,25 +48,15 @@ font-family: 'Goldman', cursive;
     <p id="titre" style="margin-top:7%">Street Workout</p>
     <img src="images/MENU1.jpg" width="70%" style="margin-bottom: 5px">
     <p id="titre" style="font-size: 20% margin: -20px">Catégories</p>
-    
-    <div class="container">
+    <div class="image">
         <img src="/images/static.png" class="cat"style="margin-bottom:10%; padding: 3%; width: 12%; display: inline-block; border-radius: 20%; margin-right: 5%; background-color: white;">
-        <div class="centered">Static</div>
-    </div>
-    
-    <div class="container">
+        <p>Static</p>
         <img src="/images/handbalancing.png" class="cat" style="margin-bottom:10%; padding: 3%; width: 12%; display: inline-block; border-radius: 20%; margin-right: 5%; background-color: white;">
-        <div class="centered">Handbalancing</div>
-    </div>
-    
-    <div class="container">
+        <p>Handbalancing</p>
         <img src="/images/strength_dynamic.png" class="cat" style="margin-bottom:10%; padding: 3%; width: 12%; display: inline-block; border-radius: 20%; margin-right: 5%; background-color: white;">
-        <div class="centered">Dynamic</div>
-    </div>
-    
-    <div class="container">
+        <p>Dynamic</p>
         <img src="/images/freestyle.png" class="cat" style="margin-bottom:10%; padding: 3%; width: 12%; display: inline-block; border-radius: 20%; background-color: white;">
-        <div class="centered">Freestyle</div>
+        <p>Freestyle</p>
     </div>
     
     <hr>
