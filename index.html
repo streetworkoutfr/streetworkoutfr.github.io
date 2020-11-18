@@ -17,26 +17,16 @@ font-family: 'Goldman', cursive;
 #titre {
     color: #FF7F00;
   }
-    
-.cat_text {
-    display: inline-block;
-    font-size: 20%;
-    margin-right: 5%;
-    margin-bottom: 0px;
-    }
-    
-.cat {
-    cursor: pointer;
-    position: relative;
-    }
 
 .image { 
    position: relative; 
+   cursor: pointer;
 }
     
 .image p { 
-   position: absolute; 
+   position: absolute;
    top: -15%; 
+   cursor: default;
    left: 0%; 
    width: 100%; 
 }
@@ -49,13 +39,19 @@ font-family: 'Goldman', cursive;
     <img src="images/MENU1.jpg" width="70%" style="margin-bottom: 5px">
     <p id="titre" style="font-size: 20% margin: -20px">Catégories</p>
     <div class="image">
-        <img src="/images/static.png" class="cat"style="margin-bottom:10%; padding: 3%; width: 12%; display: inline-block; border-radius: 20%; margin-right: 5%; background-color: white;">
+        <img src="/images/static.png" style="margin-bottom:10%; padding: 3%; width: 12%; display: inline-block; border-radius: 20%; margin-right: 5%; background-color: white;">
         <p>Static</p>
-        <img src="/images/handbalancing.png" class="cat" style="margin-bottom:10%; padding: 3%; width: 12%; display: inline-block; border-radius: 20%; margin-right: 5%; background-color: white;">
+    </div>
+    <div class="image">
+        <img src="/images/handbalancing.png" style="margin-bottom:10%; padding: 3%; width: 12%; display: inline-block; border-radius: 20%; margin-right: 5%; background-color: white;">
         <p>Handbalancing</p>
-        <img src="/images/strength_dynamic.png" class="cat" style="margin-bottom:10%; padding: 3%; width: 12%; display: inline-block; border-radius: 20%; margin-right: 5%; background-color: white;">
+    </div>    
+    <div class="image">
+        <img src="/images/strength_dynamic.png" style="margin-bottom:10%; padding: 3%; width: 12%; display: inline-block; border-radius: 20%; margin-right: 5%; background-color: white;">
         <p>Dynamic</p>
-        <img src="/images/freestyle.png" class="cat" style="margin-bottom:10%; padding: 3%; width: 12%; display: inline-block; border-radius: 20%; background-color: white;">
+    </div
+    <div class="image">
+        <img src="/images/freestyle.png" style="margin-bottom:10%; padding: 3%; width: 12%; display: inline-block; border-radius: 20%; background-color: white;">
         <p>Freestyle</p>
     </div>
     
